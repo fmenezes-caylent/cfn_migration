@@ -7,7 +7,7 @@ from test_cfn_migration.test_cfn_migration_stack import TestCfnMigrationStack
 
 
 app = cdk.App()
-TestCfnMigrationStack(app, "TestCfnMigrationStack",
+TestCfnMigrationStack(app, "existing-stack",
     # If you don't specify 'env', this stack will be environment-agnostic.
     # Account/Region-dependent features and context lookups will not work,
     # but a single synthesized template can be deployed anywhere.
